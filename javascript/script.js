@@ -23,7 +23,7 @@ function getRandomColor() {
 
 function resetSketchbox() {
     mainContainer.innerHTML = "";
-    getBoardSize = prompt("Choose board height and length in squares (write a single number value, e.g. 20)");
+    getBoardSize = prompt("Choose board height and width in squares (write a single number value, e.g. 20)");
     createSquares(getBoardSize);
 }
 
