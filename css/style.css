@@ -52,6 +52,7 @@ button:hover {
 }
 
 .outter-container {
+    box-sizing: border-box;
     position: relative;
     height: 550px;
     width: 550px;
